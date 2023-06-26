@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'pp_moriregular';
+    src: url('./fonts/pp_mori/ppmori-regular-webfont.woff2') format('woff2'),
+         url('./fonts/pp_mori/ppmori-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pp_moriextralight';
+    src: url('./fonts/pp_mori/ppmori-extralight-webfont.woff2') format('woff2'),
+         url('./fonts/pp_mori/ppmori-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'pp_moriregular', sans-serif;
+    background-color: #212021;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #212021;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.nav-link i {
+    color: #5effec;
+}
+
+#work-bar {
+    font-family: 'pp_moriextralight', sans-serif;
+    background-color: #2e2c34;
+    color: #5effec;
+    font-size: 72px;
+    letter-spacing: 2px;
+}
+
+#work-bar img{
+    height: 240px;
+}
+    
+.card p {
+    text-align: center;
+    padding-top: 164px;
+}
+
+#skills a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .nav,
+    .navbar {
+        justify-content: center;
+        font-size: .9em;
+    }
+}
