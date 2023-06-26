@@ -51,6 +51,7 @@ body {
     padding-top: 164px;
 }
 
+.navbar a,
 #skills a,
 #cva-contato a {
     color: #fff;
