@@ -51,9 +51,22 @@ body {
     padding-top: 164px;
 }
 
-#skills a {
+#skills a,
+#cva-contato a {
     color: #fff;
     text-decoration: none;
+}
+
+#cva-title {
+    font-size: 48px;
+}
+
+#cva-seta {
+    width: 40px;
+}
+
+#papel {
+    margin-left: 240px;
 }
 
 @media (max-width: 767px) {
